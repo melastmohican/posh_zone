@@ -17,9 +17,24 @@ https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7
 https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7
 https://gist.github.com/jchandra74/5b0c94385175c7a8d1cb39bc5157365e
 https://docs.microsoft.com/en-us/powershell/scripting/gallery/installing-psget?view=powershell-7
+https://cmder.net/
 https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
 http://pecigonzalo.github.io/Oh-My-Posh/
 https://support.atera.com/hc/en-us/articles/221113188-PowerShell-Scripts-Repository-for-Active-Directory
 https://github.com/janikvonrotz/awesome-powershell
 https://github.com/JW0914/awesome-powershell
 https://wilsonmar.github.io/powershell-on-mac/
+https://www.powershellgallery.com/
+
+# Log
+
+Install-PackageProvider -Name NuGet -Force                                                                                                                                                                              Name                           Version          Source           Summary                                                ----                           -------          ------           -------                                                nuget                          2.8.5.208        https://onege... NuGet provider for the OneGet meta-package manager     
+
+Install-Module -Name PowerShellGet -Force
+choco install cmder -y
+Install-Module posh-git -Force
+Install-Module oh-my-posh -Force
+Install-Module -Name PSReadLine -Force
+WARNING: The version '2.0.0' of module 'PSReadline' is currently in use. Retry the operation after closing the
+applications.
+notepad $PROFILE
