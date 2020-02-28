@@ -1,0 +1,39 @@
+[submodule "oh-my-posh"]
+	path = oh-my-posh
+	url = https://github.com/JanDeDobbeleer/oh-my-posh.git
+[submodule "Oh-My-Posh"]
+	path = Oh-My-Posh
+	url = https://github.com/pecigonzalo/Oh-My-Posh.git
+[submodule "pecigonzalo-Oh-My-Posh.git"]
+	path = pecigonzalo-Oh-My-Posh.git
+	url = https://github.com/pecigonzalo/Oh-My-Posh.git
+[submodule "JohnRoos-PowerShell"]
+	path = JohnRoos-PowerShell
+	url = https://github.com/JohnRoos/PowerShell.git
+[submodule "BornToBeRoot-PowerShell"]
+	path = BornToBeRoot-PowerShell
+	url = https://github.com/BornToBeRoot/PowerShell.git
+[submodule "lazywinadmin-PowerShell"]
+	path = lazywinadmin-PowerShell
+	url = https://github.com/lazywinadmin/PowerShell.git
+[submodule "clymb3r-PowerShell"]
+	path = clymb3r-PowerShell
+	url = https://github.com/clymb3r/PowerShell.git
+[submodule "PowerShell"]
+	path = PowerShell
+	url = https://github.com/PowerShell/PowerShell.git
+[submodule "RamblingCookieMonster-PowerShell"]
+	path = RamblingCookieMonster-PowerShell
+	url = https://github.com/RamblingCookieMonster/PowerShell.git
+[submodule "bwya77-PowerShell"]
+	path = bwya77-PowerShell
+	url = https://github.com/bwya77/PowerShell.git
+[submodule "PowerShell-Scripts"]
+	path = PowerShell-Scripts
+	url = https://github.com/peterschmidtdk/PowerShell-Scripts.git
+[submodule "Windows-10-Spotlight-Photo-Backup-Script"]
+	path = Windows-10-Spotlight-Photo-Backup-Script
+	url = https://github.com/peterschmidtdk/Windows-10-Spotlight-Photo-Backup-Script.git
+[submodule "posh-git"]
+	path = posh-git
+	url = https://github.com/dahlbyk/posh-git.git
