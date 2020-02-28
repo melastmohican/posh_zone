@@ -19,12 +19,15 @@ https://gist.github.com/jchandra74/5b0c94385175c7a8d1cb39bc5157365e
 https://docs.microsoft.com/en-us/powershell/scripting/gallery/installing-psget?view=powershell-7
 https://cmder.net/
 https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx
+https://hodgkins.io/ultimate-powershell-prompt-and-git-setup
 http://pecigonzalo.github.io/Oh-My-Posh/
 https://support.atera.com/hc/en-us/articles/221113188-PowerShell-Scripts-Repository-for-Active-Directory
 https://github.com/janikvonrotz/awesome-powershell
 https://github.com/JW0914/awesome-powershell
 https://wilsonmar.github.io/powershell-on-mac/
-https://www.powershellgallery.com/
+https://www.powershellgallery.com/https://docs.aws.amazon.com/powershell/
+latest/userguide/pstools-getting-set-up-windows.html
+
 
 # Log
 
@@ -38,3 +41,10 @@ Install-Module -Name PSReadLine -Force
 WARNING: The version '2.0.0' of module 'PSReadline' is currently in use. Retry the operation after closing the
 applications.
 notepad $PROFILE
+
+Install-Module -Name AWS.Tools.Installer -Force
+Install-AWSToolsModule AWS.Tools.EC2,AWS.Tools.S3 -CleanUp 
+    Installing module AWS.Tools.EC2 version 4.0.4.0
+    Installing module AWS.Tools.S3 version 4.0.4.0
+Install-AWSToolsModule AWS.Tools.IdentityManagement -Scope AllUsers
+    Installing module AWS.Tools.IdentityManagement version 4.0.4.0

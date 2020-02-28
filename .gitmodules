@@ -46,3 +46,9 @@
 [submodule "cascadia-code"]
 	path = cascadia-code
 	url = https://github.com/microsoft/cascadia-code.git
+[submodule "Posh-SSH"]
+	path = Posh-SSH
+	url = https://github.com/darkoperator/Posh-SSH.git
+[submodule "powershell-for-developers"]
+	path = powershell-for-developers
+	url = https://github.com/dfinke/powershell-for-developers.git
