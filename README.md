@@ -26,7 +26,7 @@ https://github.com/janikvonrotz/awesome-powershell
 https://github.com/JW0914/awesome-powershell
 https://wilsonmar.github.io/powershell-on-mac/
 https://www.powershellgallery.com/https://docs.aws.amazon.com/powershell/latest/userguide/pstools-getting-set-up-windows.html
-https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/convertfrom-json?view=powershell-7
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utilityconvertfrom-json?view=powershell-7
 https://devblogs.microsoft.com/scripting/playing-with-json-and-powershell/
 https://www.business.com/articles/using-powershell-with-json-data/
 https://stackoverflow.com/questions/49136148/how-to-parse-json-response-in-powershell
@@ -58,3 +58,5 @@ Install-AWSToolsModule AWS.Tools.IdentityManagement -Scope AllUsers
 $request = 'http://musicbrainz.org/ws/2/recording/fcbcdc39-8851-4efc-a02a-ab0e13be224f?inc=artist-credits+isrcs+releases&fmt=json'
 
 Invoke-WebRequest $request | ConvertFrom-Json  | select -expand releases | Select title, date, country
+
+(Get-Content conducktor-response.json | ConvertFrom-Json).provider.token.jwt
